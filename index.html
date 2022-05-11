@@ -7,6 +7,7 @@
 
     <!-- =============== CSS =================== -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <link
       rel="stylesheet"
@@ -304,10 +305,76 @@
           </div>
         </div>
       </section>
-      <section class="section sec5 contact"></section>
+
+      <section class="section portfolio" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/3.jpg" alt="" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Portfolio Website</h3>
+                <p class="portfolio__description">
+                  Website adaptable to all devices, and animated interactions
+                </p>
+                <a
+                  href=""
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/3.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Portfolio Website</h3>
+                <p class="portfolio__description">
+                  Website adaptable to all devices, and animated interactions
+                </p>
+                <a
+                  href=""
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/3.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Portfolio Website</h3>
+                <p class="portfolio__description">
+                  Website adaptable to all devices, and animated interactions
+                </p>
+                <a
+                  href=""
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="fa-solid fa-angle-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fa-solid fa-angle-left swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
     </main>
 
     <!-- ================== JS ==================== -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
